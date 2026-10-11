@@ -1,0 +1,2 @@
+cluster_id,cluster_ra_deg,cluster_dec_deg,cluster_z,cluster_z_err,bcg_spec_z,catalog_richness
+SYNTHETIC_001,150,2,0.5,0.02,,100

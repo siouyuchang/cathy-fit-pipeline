@@ -1,0 +1,9 @@
+# Local Python 3.12 environment used for the packaging smoke check.
+# Install requirements.txt first; these pins cover the scientific runtime only.
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.13.1
+astropy==6.0.1
+matplotlib==3.9.4
+ipython==8.18.1
+nbformat==5.10.4

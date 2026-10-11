@@ -1,0 +1,32 @@
+# Local environment and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+.vscode/
+.idea/
+# Real inputs and generated results
+/data/*
+!/data/README.md
+/cathy_pipeline_outputs/
+/cathy_specz_outputs/
+/cathy_pipeline_archive/
+*.fits
+*.fits.gz
+*.fits.fz
+*.hdf5
+*.h5
+*.sqlite*
+*.db
+*.partial
+*.log
+# CSV data belong only in documented template/example directories
+*.csv
+!/examples/*.csv
+!/cathy_pipeline_input_templates/*.csv

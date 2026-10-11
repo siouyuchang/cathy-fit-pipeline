@@ -1,0 +1,24 @@
+{
+  "notebook": "<original-workspace>/Cathy_fit_pipeline.ipynb",
+  "output": "<original-workspace>/cathy_pipeline_outputs/20261008T025112_416505Z",
+  "elapsed_seconds": 266.3,
+  "counts": {
+    "LS": {
+      "keep": 65,
+      "drop": 35
+    },
+    "Tian": {
+      "drop": 60,
+      "keep": 40
+    },
+    "DEmP": {
+      "keep": 78,
+      "drop": 22
+    }
+  },
+  "tests": [
+    "fresh Python process executed all notebook code cells in order",
+    "all final richness counts agree with member tables",
+    "replot from CSV-only saved run for every dataset"
+  ]
+}

@@ -1,0 +1,9 @@
+# Runtime dependencies; see requirements-tested.txt for locally tested versions.
+numpy
+pandas
+scipy
+astropy
+matplotlib
+ipython
+jupyterlab
+nbformat
